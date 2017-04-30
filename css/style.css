@@ -52,7 +52,7 @@
 #scroll-top-area {
   background: rgba(0, 0, 0, 0.4);
   position: fixed;
-  bottom: 10px;
+  bottom: 105px;
   right: 10px;
   border-radius: 4px;
   z-index: 8;
