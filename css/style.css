@@ -146,7 +146,7 @@ canvas {
 .particle-bg{
   position: relative;
   background-size: cover;
-  background: url("../images/particle-bg.jpg");
+  background: url("../images/ban.jpg");
 }
 
 .image-bg{
@@ -904,7 +904,7 @@ canvas {
 /*------------------contact section-------------*/
 
 .contact {
-  background: url("../images/contact.jpg");
+  background: url("../images/ban-contact.jpg");
   background-size: cover;
 }
 

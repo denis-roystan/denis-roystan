@@ -122,7 +122,7 @@
 
         $(function() {
             element.typed({
-                strings: ["I'm Creative.", "I'm Designer.", "I'm Developer."],
+                strings: ["I'm Creative.", "I'm Designer.", "I'm Developer.", "I'm Enthusiast."],
                 typeSpeed: 100,
                 loop: true,
             });
