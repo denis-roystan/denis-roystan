@@ -200,7 +200,7 @@ canvas {
 }
 
 .welcome-text h6 {
-  font-size: 22px;
+  font-size: 24px;
   color: #94a6ba;
   font-weight: 600;
   padding-bottom: 50px;
@@ -1023,4 +1023,8 @@ footer {
 
 .nicescroll-rails{
   z-index: 5 !important;
+}
+
+.section-title{
+  font-family: 'Philosopher', sans-serif;
 }

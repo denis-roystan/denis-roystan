@@ -159,6 +159,10 @@ a:focus {
   padding: 100px 0;
 }
 
+.padding-style2 {
+  padding: 50px 0;
+}
+
 .animation {
   opacity: 0;
 }
