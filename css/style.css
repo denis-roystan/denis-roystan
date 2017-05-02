@@ -1020,3 +1020,7 @@ footer {
   text-align: center;
   color: #ddd;
 }
+
+.nicescroll-rails{
+  z-index: 5 !important;
+}

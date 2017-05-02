@@ -44,7 +44,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <a href="index.html" class="logo">
-                        <img src="images/logo.png" alt="logo">
+                        <!-- <img src="images/logo.png" alt="logo"> -->
                     </a>
                 </div>
                 <div class="col-md-9">
@@ -83,11 +83,11 @@
                         <img src="images/about.jpg" alt="" class="about-img img-responsive">
                         <div class="about-img-overlay">
                             <div class="social-icons">
-                                <a href="https://www.facebook.com/roystan.dalmeida.7"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="https://twitter.com/DenisRoystan"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="https://plus.google.com/103357978047791396161"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                <a href="https://github.com/denis-roystan"><i class="fa fa-github" aria-hidden="true"></i></a>
-                                <a href="http://in.linkedin.com/in/denis-roystan"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="https://www.facebook.com/roystan.dalmeida.7" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="https://twitter.com/DenisRoystan" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="https://plus.google.com/103357978047791396161" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                <a href="https://github.com/denis-roystan" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                <a href="http://in.linkedin.com/in/denis-roystan" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
@@ -691,6 +691,7 @@
 
     <!--javascript-->
     <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.js"></script>
     <script type="text/javascript" src="js/particles.min.js"></script>
     <script type="text/javascript" src="js/jquery.slicknav.min.js"></script>
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
@@ -703,6 +704,16 @@
     <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
     <script type="text/javascript" src="js/jquery.singlePageNav.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() { 
+
+            $("html").niceScroll({
+                cursorcolor : "#164E71",
+                horizrailenabled: false
+            });
+        });
+    </script>
 
     <!-- begin olark code -->
     <script type="text/javascript" async> ;(function(o,l,a,r,k,y){if(o.olark)return; r="script";y=l.createElement(r);r=l.getElementsByTagName(r)[0]; y.async=1;y.src="//"+a;r.parentNode.insertBefore(y,r); y=o.olark=function(){k.s.push(arguments);k.t.push(+new Date)}; y.extend=function(i,j){y("extend",i,j)}; y.identify=function(i){y("identify",k.i=i)}; y.configure=function(i,j){y("configure",i,j);k.c[i]=j}; k=y._={s:[],t:[+new Date],c:{},l:a}; })(window,document,"static.olark.com/jsclient/loader.js");
