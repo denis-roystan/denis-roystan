@@ -163,10 +163,7 @@ footer{padding:35px 0px;background:#333;}
 .col-pad-btm{
 	padding-bottom: 32px;
 }
-.inner-container{
-	width: 992px;
-	margin: 0 auto;
-}
+
 #service_accordion{
 	-webkit-transition: all .35s ease;
     -o-transition: all .35s ease;
@@ -190,10 +187,21 @@ footer{padding:35px 0px;background:#333;}
 	overflow: hidden;
 }
 .service-show{
-	height: 200px;
 	visibility: visible;
 }
 .service-item span i{
 	height: 82px;
 	width: 82.81px;
+}
+
+/*Media Queries*/
+
+@media screen and (min-width: 992px){
+	.inner-container{
+		width: 992px;
+		margin: 0 auto;
+	}
+	.service-show{
+		height: 200px;
+	}
 }
