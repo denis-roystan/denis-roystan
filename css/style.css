@@ -193,3 +193,7 @@ footer{padding:35px 0px;background:#333;}
 	height: 200px;
 	visibility: visible;
 }
+.service-item span i{
+	height: 82px;
+	width: 82.81px;
+}
