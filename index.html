@@ -175,28 +175,89 @@
         <div class="services-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-sm-4">
-                        <div class="service-item animation" data-animation="fadeInLeft">
-                            <span><i class="fa fa-leaf" aria-hidden="true"></i></span>
-                            <p class="content-title">THEME DEVELOPMENT</p>
-                            <p class="content-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium sit voluptatem accusantium</p>
+                <div class="col-md-12">
+                    <div class="inner-container">
+                        <div class="col-md-3 col-sm-3 col-pad-btm">
+                            <div class="service-item animation" data-animation="fadeInLeft">
+                                <span><i class="fa fa-leaf" aria-hidden="true"></i></span>
+                                <p class="content-title">Application Design</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="service-item animation" data-animation="pulse">
-                            <span><i class="fa fa-paint-brush" aria-hidden="true"></i></span>
-                            <p class="content-title">GRAPHICS DESIGN</p>
-                            <p class="content-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium sit voluptatem accusantium</p>
+                        <div class="col-md-3 col-sm-3 col-pad-btm">
+                            <div class="service-item animation" data-animation="pulse">
+                                <span><i class="fa fa-paint-brush" aria-hidden="true"></i></span>
+                                <p class="content-title">Application Development</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="service-item animation" data-animation="fadeInRight">
-                            <span><i class="fa fa-gears" aria-hidden="true"></i></span>
-                            <p class="content-title">PLUGIN DEVELOPMENT</p>
-                            <p class="content-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium sit voluptatem accusantium</p>
+                        <div class="col-md-3 col-sm-3 col-pad-btm">
+                            <div class="service-item animation" data-animation="fadeInRight">
+                                <span><i class="fa fa-gears" aria-hidden="true"></i></span>
+                                <p class="content-title">Mobility</p>
+                            </div>
                         </div>
-                    </div>
+                        <div class="col-md-3 col-sm-3 col-pad-btm">
+                            <div class="service-item animation" data-animation="fadeInLeft">
+                                <span><i class="fa fa-leaf" aria-hidden="true"></i></span>
+                                <p class="content-title">Internet Marketing</p>
+                            </div>
+                        </div>
 
+                        <div class="col-md-3 col-sm-3 col-pad-btm">
+                            <div class="service-item animation" data-animation="pulse">
+                                <span><i class="fa fa-paint-brush" aria-hidden="true"></i></span>
+                                <p class="content-title">Cloud Services</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-pad-btm">
+                            <div class="service-item animation" data-animation="fadeInRight">
+                                <span><i class="fa fa-gears" aria-hidden="true"></i></span>
+                                <p class="content-title">Web Hosting</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-pad-btm">
+                            <div class="service-item animation" data-animation="fadeInLeft">
+                                <span><i class="fa fa-leaf" aria-hidden="true"></i></span>
+                                <p class="content-title">IT Security</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-pad-btm">
+                            <div class="service-item animation" data-animation="pulse">
+                                <span><i class="fa fa-paint-brush" aria-hidden="true"></i></span>
+                                <p class="content-title">Testing Services</p>
+                            </div>
+                        </div>
+
+                        <div id="service_accordion" class="col-sm-12 col-md-12 service-hide" style="clear: both;">
+                                <div class="col-md-3 col-sm-3 col-pad-btm">
+                                    <div class="service-item animation" data-animation="fadeInRight">
+                                        <span><i class="fa fa-gears" aria-hidden="true"></i></span>
+                                        <p class="content-title">StartUp Ideas</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-pad-btm">
+                                    <div class="service-item animation" data-animation="fadeInLeft">
+                                        <span><i class="fa fa-leaf" aria-hidden="true"></i></span>
+                                        <p class="content-title">Dedicated Resources</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-pad-btm">
+                                    <div class="service-item animation" data-animation="fadeInRight">
+                                        <span><i class="fa fa-gears" aria-hidden="true"></i></span>
+                                        <p class="content-title">Web SEO</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-pad-btm">
+                                    <div class="service-item animation" data-animation="fadeInLeft">
+                                        <span><i class="fa fa-leaf" aria-hidden="true"></i></span>
+                                        <p class="content-title">IT Strategy and Consulting</p>
+                                    </div>
+                                </div>                                
+                           
+                        </div>
+                        <div class="col-md-12"><a class="btn-style2 services-view-more">View More</a></div>
+
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -716,6 +777,15 @@
     <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
     <script type="text/javascript" src="js/jquery.singlePageNav.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".services-view-more").click(function(event) {
+                $("#service_accordion").toggleClass('service-hide');
+                $("#service_accordion").toggleClass('service-show');
+            });
+        });
+    </script>
 
     <script type="text/javascript">
         $(document).ready(function() { 

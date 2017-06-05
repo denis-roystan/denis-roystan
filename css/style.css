@@ -61,11 +61,11 @@ canvas{display:block;vertical-align:bottom;}
 .skills .progress-bar > span::before{position:absolute;bottom:-4px;left:12px;display:block;width:8px;height:8px;content:"";transform:rotate(45deg);background-color:#164E71;;}
 .services{background-color:rgba(234, 234, 234, 0.9);text-align:center;}
 .services .services-header{width:100%;margin:0 auto;text-align:center;margin-bottom:20px;}
-.services .services-content{padding:0 20px;}
-.services .services-content span i{font-size:22px;color:#164E71;border:1px solid #164e71;padding:16px;border-radius:31px;}
-.services .services-content .content-title{font-size:18px;font-weight:600;margin-top:28px;margin-bottom:18px;color:#333;}
-.service-item{background:#f9f9f9;padding:56px 28px;margin-top:28px;transition:all 0.5s;box-shadow:0px 0px 10px #EDEDED;}
-.service-item:hover{box-shadow:0px 0px 10px #bcbcbc;}
+.services .services-content{padding:0 20px;margin-top: 80px;}
+.services .services-content span i{font-size:36px;color:#164E71;border:1px solid #164e71;padding:22px;border-radius:100%;}
+.services .services-content .content-title{font-size:14px;font-weight:600;margin-top:16px;margin-bottom:18px;color:#333;}
+.service-item{/*background:#f9f9f9;padding:56px 28px;*/margin-top:28px;transition:all 0.5s;box-shadow:0px 0px 10px #EDEDED;}
+/*.service-item:hover{box-shadow:0px 0px 10px #bcbcbc;}*/
 .service-item:hover span i{color:#fff;background:#164E71;transition:all 0.5s;}
 .portfolio-content-head ul li{display:inline-block;cursor:pointer;padding:12px 14px;font-weight:700;color:#7B7B7B;margin:0px 10px;}
 .portfolio-content-head ul li:hover{color:#164E71;}
@@ -156,3 +156,40 @@ footer{padding:35px 0px;background:#333;}
 .copyright p{text-align:center;color:#ddd;}
 .nicescroll-rails{z-index:5 !important;}
 .section-title{font-family:'Philosopher', sans-serif;}
+
+
+/*Denis Roystan Css*/
+
+.col-pad-btm{
+	padding-bottom: 32px;
+}
+.inner-container{
+	width: 992px;
+	margin: 0 auto;
+}
+#service_accordion{
+	-webkit-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.services-view-more{
+	cursor: pointer;
+	background-color: #fff;
+    color: #164E71;
+    box-shadow: 0px 0px 10px #9f9f9f;
+    position: relative;
+    top: 22px;
+}
+.services-view-more:hover, .services-view-more:focus {
+    border-color: transparent;
+    text-decoration: none;
+}
+.service-hide{
+	height: 0px;
+	visibility: hidden;
+	overflow: hidden;
+}
+.service-show{
+	height: 200px;
+	visibility: visible;
+}
