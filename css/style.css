@@ -5,8 +5,8 @@
 header{height:80px;line-height:80px;background:#fff;position:fixed;z-index:5;width:100%;top:0;box-shadow:0px 0px 5px #888888;}
 header a .logo{display:inline-block;float:left;}
 header nav{float:right;}
-header nav ul li{display:inline-block;margin-left:-2px;}
-header nav ul li a{color:#000;text-transform:uppercase;transition:all 0.2s;width:100px;text-align:center;display:block;margin-left:-3px;font-weight:600;}
+header nav ul li{display:inline-block;margin-left:-2px;margin: 0 5px;}
+header nav ul li a{color:#000;text-transform:uppercase;transition:all 0.2s;width:100px;text-align:center;display:block;margin-left:-3px;font-weight:600;padding: 0 12px;}
 header nav ul li a:focus{color:#000;}
 header nav ul li a.current,
 header nav ul li a:active,
