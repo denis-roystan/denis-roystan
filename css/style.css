@@ -71,7 +71,7 @@ canvas{display:block;vertical-align:bottom;}
 .portfolio-content-head ul li:hover{color:#164E71;}
 .mixitup-control-active{background:#fff;box-shadow:0px 0px 10px #9f9f9f;}
 .mix{display:inline-block;}
-.portfolio-item{position:relative;margin:20px 0;}
+.portfolio-item{position:relative;margin:20px 0;text-align:center;text-align:-webkit-center;}
 .portfolio-img{position:relative;z-index:1;transition:all 0.5s;overflow:hidden;}
 .portfolio-img img{transform:scale(1);transition:all 0.5s;}
 .portfolio-content-head{text-align:center;margin-bottom:28px;}
@@ -193,6 +193,7 @@ footer{padding:35px 0px;background:#333;}
 	height: 82px;
 	width: 82.81px;
 }
+.category{font-size:16px;color:#164E71;font-weight:600;}
 
 /*Media Queries*/
 
